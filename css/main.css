@@ -1009,8 +1009,272 @@ footer h6{
 .read-more:hover{
   color: #3AA3F4;
 }
- 
- 
+.main-package{
+  background: #F5F5F5;
+}
+.package-cover{
+  height: 626px;  
+  background-position: center , center !important;
+  background-size: 100% , 100% auto !important;
+  background-repeat: no-repeat , no-repeat !important;
+  background:  linear-gradient(95.8deg, #F39E29 27.76%, rgba(217, 217, 217, 0) 125.79%), url(../images/PK1.png) ;  
+  padding-top: 114px;
+}
+.package-cover h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 108px; 
+  color: #FFFFFF; 
+  margin-bottom: 55px;
+}
+.package-cover h4{
+  font-size: 32px;
+  line-height: 48px; 
+  color: #FFFFFF;
+  font-family: NotoSansThai-Bold; 
+}
+.package-cover h4 img{
+  margin-right: 15px;
+}
+h1.text-pro{
+  font-family: NotoSansThai-Bold;  
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px; 
+  color: #224096;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+p.text-pro{
+  font-family: NotoSansThai-Regular;   
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;  
+  color: #18181B;
+  margin-top: 80px;
+}
+.table-package{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.table-package h1{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  font-family: NotoSansThai-Bold;  
+  text-align: center; 
+  color: #18181B;
+  margin-bottom: 45px;
+}
+.table-package table thead tr th{
+  font-family: NotoSansThai-SemiBold;
+  height: 72px; 
+  background: #224096; 
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;   
+  text-align: center; 
+  color: #FFFFFF; 
+  border-bottom: 0px solid transparent !important;
+}
+.table-package table thead tr th span{
+  font-family: 'Inter';
+  font-weight: 600; 
+}
+.table-package table thead tr th:first-child{ 
+  border-radius: 12px 0px 0px 0px;
+}
+.table-package table thead tr th:last-child{ 
+  border-radius: 0px 12px 0px 0px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #FFFFFF;
+}
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #F6F6F6;
+}
+.table-striped tbody td{
+  font-size: 20px;
+  line-height: 44px; 
+  color: #18181B;
+  text-align: center;
+  border-top: 0px solid transparent !important;
+  border-bottom: 0px solid transparent !important;
+  height: 72px;
+}
+.table-package table thead tr th span{
+  font-family: 'Inter';
+  font-weight: 600; 
+}
+.package-item{  
+  height: 1083px;  
+  background: #FFFFFF; 
+  border: 2px solid transparent;
+  box-shadow: 0px 24px 32px -3px #EBF4FF;
+  border-radius: 24px;
+  padding: 60px 20px;
+  /* transform: scale(.9); */
+}
+.package-item {  
+  width: 640px; 
+  max-width: 100%;
+  background: #FFFFFF; 
+  border: 2px solid transparent;
+  box-shadow: 0px 24px 32px -3px #EBF4FF;
+  border-radius: 24px;
+  padding: 60px 20px;
+  height: 1000px;  
+  position: relative;
+  transform: scale(.9);
+}
+.owl-item.active.center .package-item {
+  border: 2px solid #224096 !important;  
+  margin-top: 0px;
+  transform: scale(1); 
+} 
+.package-item h2{  
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px; 
+  color: #224096;
+  padding-left: 130px;
+}
+.package-item h1{  
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px; 
+  color: #224096;
+  padding-left: 130px;
+}
+.package-item .iconx{  
+  position: absolute;
+  background: rgba(58, 163, 244,.1); 
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.package-item .iconx img{   
+  height: 40px !important; 
+  width: auto !important;
+} 
+.package-item hr{
+  border-bottom: 1px solid #DEDCE7;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.package-item ul{
+  height: 462px;
+}
+.package-item ul li{
+  font-family: NotoSansThai-Regular; 
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px; 
+  color: #18181B; 
+}
+.package-item h5{  
+  font-family: NotoSansThai-SemiBold; 
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px; 
+  color: #224096;
+  padding-left: 15px;
+}
+.package-item .btn{  
+  margin-top: 20px;
+  max-width: 100%;
+  width: 394px;
+  height: 79px; 
+  background: linear-gradient(95.78deg, #3A8EF6 -47.27%, #224096 108.92%);
+  box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: NotoSansThai-SemiBold; 
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px; 
+  color: #FFFFFF;
+}
+.package-item .best-sel{
+  position: absolute;
+  width: 266px;
+  height: 76px;
+  right: 54px;
+  top: -17px; 
+  background: #EB3C5C;
+  border-radius: 11px; 
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 75px; 
+  text-align: center; 
+  color: #FFFFFF; 
+  text-shadow: 0px 4px 4px rgba(75, 75, 75, 0.16);
+}
+.package-item .best-sel:after{
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 64px; 
+  top: -54px;
+  left: 0;
+  right: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #EB3C5C;
+  border-radius: 100%;
+  border: 6px solid #F5F5F5;
+  background-position: center , center !important;
+  background-size:  auto 37px , 100% auto !important;
+  background-repeat: no-repeat , no-repeat !important;
+  background: url(../images/like2.png) , #EB3C5C ;  
+}
+.content13 .owl-item {
+  padding-top: 35px; 
+}  
+.package-item .towing{
+  position: absolute;
+  width: 266px;
+  height: 76px;
+  right: 75px;
+  top: -25px; 
+  background: #fff;  
+  border: 2px solid #3AA3F4;
+  backdrop-filter: blur(12px); 
+  border-radius: 11px; 
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 77px; 
+  text-align: center; 
+  color: #3AA3F4;
+  font-family: NotoSansThai-SemiBold;  
+}
+.content13 .owl-nav{
+  display: none;
+}
+.content13 .owl-theme .owl-dots{
+  margin-top: 30px;
+} 
+.content13 .owl-theme .owl-dots .owl-dot span{
+  width: 16px;
+  height: 16px;
+  background: #DDDDDD;
+}
+.content13 .owl-theme .owl-dots .owl-dot.active span{ 
+  background: #224096;
+}
 
 /*  
   font-family: NotoSansThai-Bold; 
@@ -1418,6 +1682,65 @@ Light_Blue  #9DABD3
     color: #18181B !important;
     font-family: 'Inter' !important;
   }
+  .package-cover {
+    height: unset;
+    background-position: center , center !important;
+    background-size: 100% , auto 100%  !important;
+    background-repeat: no-repeat , no-repeat !important;
+    background: linear-gradient(95.8deg, #F39E29 27.76%, rgba(217, 217, 217, 0) 125.79%), url(../images/PK1.png);
+    padding-top: 20px;
+  }
+  .package-cover h1 { 
+    font-size: 40px;
+    line-height: 50px; 
+    margin-bottom: 15px;
+  }
+  .package-cover h4 {
+    font-size: 20px;
+    line-height: 50px; 
+  }
+  .package-cover h4 img {
+    height: 25px; 
+    margin-right: 5px;
+  }
+  h1.text-pro { 
+    font-size: 36px;
+    line-height: 50px; 
+    margin-top: 48px;
+    margin-bottom: 10px;
+  }
+  p.text-pro { 
+    font-size: 18px;
+    line-height: 30px; 
+    margin-top: 15px;
+  }
+  .table-package h1 { 
+    font-size: 32px;
+    line-height: 40px; 
+    margin-bottom: 20px;
+  }
+  .table-package table thead tr th { 
+    height: 50px; 
+    font-size: 16px;
+    line-height: 18px; 
+  }
+  .table-striped tbody td {
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    height: 72px;
+  }
+  .content13{  
+    height: 800px;
+    margin-top: -250px;
+  } 
+  .owl-item .package-item { 
+    transform: scale(.5);
+    border: 2px solid #224096 !important;
+  } 
+  .content13 .owl-theme .owl-dots {
+    margin-top: -230px;
+  }
 } 
 
 @media (min-width: 1200px){
@@ -1450,6 +1773,17 @@ Light_Blue  #9DABD3
   .icon-func{
     margin-top: 20px !important;
     display: flex !important;
+  }
+  
+  .content13{  
+    height: unset;
+    margin-top: 0px;
+  } 
+  .owl-item .package-item { 
+    transform: scale(1); 
+  } 
+  .content13 .owl-theme .owl-dots {
+    margin-top: 30px;
   }
 }
 @media only screen and (width: 1024px) { /* IPAD PRO */  
