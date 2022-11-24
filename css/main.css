@@ -838,11 +838,184 @@ footer h6{
   background: #224096;
   color: #FFFFFF;
 }
+.sec-f1{
+  padding-top: 111px;
+  height: 576px; 
+  background: linear-gradient(269.86deg, rgba(34, 64, 150, 0.25) 0.11%, rgba(58, 163, 244, 0.05) 99.88%);
+  text-align: center;
+}
+.sec-f1 h1{
+  font-family: 'Inter' !important; 
+  font-weight: 700;
+  font-size: 80px !important;
+  line-height: 74px !important; 
+  color: #224096 !important;
+  margin-bottom: 16px !important;
+}
+.sec-f1 h2{
+  font-family: 'Inter';
+  font-family: NotoSansThai-Bold;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 74px; 
+  color: #224096;
+}
+.sec-f1 h2 span{
+  color: #F29D29;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff; 
+}
+.icon-func{
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-func div{
+  width: 128px;
+  height: 128px; 
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 4px 4px rgba(182, 199, 227, 0.24);
+  backdrop-filter: blur(2px); 
+  border-radius: 100%;
+  margin-left: 12px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-func div img{
+  height: 56px; 
+} 
+.sec-f-bot{
+  height: 846px;  
+  background-position: left bottom !important;
+  background-size: auto 85%  , 100% !important;
+  background-repeat: no-repeat , no-repeat !important;
+  background: url(../images/FN7.png) , linear-gradient(78.33deg, #BCD5F3 -14.46%, #FFFFFF 115.92%); 
+  padding-top: 146px;
+  text-align: center;
+}
+.sec-f-bot h2{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px; 
+  color: #224096;
+  font-family: NotoSansThai-Bold; 
+  margin-bottom: 17px;
+}
+.sec-f-bot h1{
+  font-family: NotoSansThai-Bold !important; 
+  font-size: 56px !important;
+  line-height: 80px !important; 
+  color: #F29D29 !important;
+}
+.sec-f-bot p{
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 32px !important; 
+  color: #18181B !important;
+  font-family: 'Inter' !important;
+}
+.sec-f2{
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+.sec-f2 h1{
+  font-family: NotoSansThai-Bold; 
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px; 
+  text-align: center; 
+  color: #224096;
+}
+.main-function h1{
+  font-family: NotoSansThai-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px; 
+  color: #18181B;
+  margin-bottom: 30px;
+}
+.main-function h1 span{ 
+  color: #F29D29;
+} 
+.main-function h1 strong{ 
+  font-family: 'Inter';
+} 
+.main-function h1 strong span{ 
+  font-family: 'Inter';
+  color: #F29D29;
+} 
+.main-function p{
+  font-family: NotoSansThai-Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px; 
+  color: #18181B;
+} 
+.main-function p span{
+  font-family: 'Inter'; 
+} 
+.sec-func1{
+  height: 736px; 
+  background: #FFFFFF;
+}
+.sec-func2{
+  height: 824px; 
+  background: #FFFFFF;
+} 
+.sec-func2 img{
+  max-height: 692px;
+}
+.sec-func3{
+  height: 740px; 
+  background: #FFFFFF;
+}
+.sec-func3 img{
+  max-height: 576px;  
+}
+.sec-func4{
+  height: 740px; 
+  background: #FFFFFF;
+}
+.sec-func4 img{
+  max-height: 584px;  
+}
+.sec-func5{
+  height: 740px; 
+  background: #FFFFFF;
+}
+.sec-func5 img{
+  max-height: 574px;  
+}
+.sec-func6{
+  height: 744px; 
+  background: #FFFFFF;
+}
+.sec-func6 img{
+  max-height: 615px;  
+}
+.read-more{
+  font-family: NotoSansThai-SemiBold; 
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px; 
+  color: #224096;
+}
+.read-more img{
+  margin-left: 13px;
+}
+.read-more:hover{
+  color: #3AA3F4;
+}
+ 
  
 
 /*  
   font-family: NotoSansThai-Bold; 
   SemiBold Regular 
+  font-family: 'Inter';
 Blue        #224096
 Blue Sky    #3AA3F4
 Orang       #F29D29
@@ -1113,6 +1286,138 @@ Light_Blue  #9DABD3
     margin-top: 15px !important;
     margin-bottom: 15px !important;
   }
+  .sec-f1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: unset;  
+  }
+  .icon-func{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .icon-func div{
+    float: left;
+    width: 73px;
+    height: 73px;
+    margin-bottom: 15px;
+  }
+  .icon-func div img{
+    height: 40px;
+  }
+  .sec-f1 h1 { 
+    font-size: 60px !important;
+    line-height: 60px !important; 
+  }
+  .main-function h2{ 
+    font-size: 40px;
+    line-height: 30px; 
+    margin-bottom: 25px;
+  }
+  .main-function h1 { 
+    font-size: 28px;
+    line-height: 36px; 
+    margin-bottom: 25px;
+  }
+  .sec-f2 {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+  .main-function p { 
+    font-size: 18px;
+    line-height: 32px; 
+  }
+  .sec-func1{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func2{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func3{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func4{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func5{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func6{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func1 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-func2 .container .row > div:nth-child(1){
+    order: 2; 
+  }
+  .sec-func2 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-func3 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-func4 .container .row > div:nth-child(1){
+    order: 2; 
+  }
+  .sec-func4 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-func5 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-func6 .container .row > div:nth-child(1){
+    order: 2; 
+  }
+  .sec-func6 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-f-bot{
+    height: unset;  
+    background-position: -30% bottom !important;
+    background-size: auto 44%  , 100% !important;
+    background-repeat: no-repeat , no-repeat !important;
+    background: url(../images/FN7.png) , linear-gradient(78.33deg, #BCD5F3 -14.46%, #FFFFFF 115.92%); 
+    padding-top: 66px;
+    text-align: center;
+  }
+  .sec-f-bot h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px; 
+    color: #224096; 
+    margin-bottom: 0px !important;
+  }
+  .sec-f-bot h1{
+    font-family: NotoSansThai-Bold !important; 
+    font-size: 36px !important;
+    line-height: 40px !important; 
+    color: #F29D29 !important;
+  }
+  .sec-f-bot p{ 
+    font-size: 16px !important;
+    line-height: 22px !important; 
+    color: #18181B !important;
+    font-family: 'Inter' !important;
+  }
 } 
 
 @media (min-width: 1200px){
@@ -1127,6 +1432,24 @@ Light_Blue  #9DABD3
   .logo-our { 
     margin-bottom: 30px;
     height: 100px; 
+  } 
+  .sec-func2 .container .row > div:nth-child(1){
+    order: unset !important; 
+  } 
+  .sec-func4 .container .row > div:nth-child(1){
+    order: unset !important; 
+  } 
+  .sec-func6 .container .row > div:nth-child(1){
+    order: unset !important; 
+  }
+  .icon-func div { 
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  .icon-func{
+    margin-top: 20px !important;
+    display: flex !important;
   }
 }
 @media only screen and (width: 1024px) { /* IPAD PRO */  
@@ -1156,4 +1479,127 @@ Light_Blue  #9DABD3
     height: unset !important;
     padding-top: 30px;
   } 
+  .sec-f1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: unset;  
+  }
+  .icon-func{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .icon-func div{
+    float: left;
+    width: 73px;
+    height: 73px;
+    margin-bottom: 15px;
+  }
+  .icon-func div img{
+    height: 40px;
+  }
+  .sec-f1 h1 { 
+    font-size: 60px !important;
+    line-height: 60px !important; 
+  }
+  .main-function h2{ 
+    font-size: 40px;
+    line-height: 30px; 
+    margin-bottom: 25px;
+  }
+  .main-function h1 { 
+    font-size: 28px;
+    line-height: 36px; 
+    margin-bottom: 25px;
+  }
+  .sec-f2 {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+  .main-function p { 
+    font-size: 18px;
+    line-height: 32px; 
+  }
+  .sec-func1{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func2{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func3{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func4{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func5{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func6{
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+  }
+  .sec-func1 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  } 
+  .sec-func2 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-func3 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  } 
+  .sec-func4 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-func5 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  } 
+  .sec-func6 .container .row > div img{
+    max-height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .sec-f-bot{
+    height: unset;  
+    background-position: -30% bottom !important;
+    background-size: auto 44%  , 100% !important;
+    background-repeat: no-repeat , no-repeat !important;
+    background: url(../images/FN7.png) , linear-gradient(78.33deg, #BCD5F3 -14.46%, #FFFFFF 115.92%); 
+    padding-top: 66px;
+    text-align: center;
+  }
+  .sec-f-bot h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px; 
+    color: #224096; 
+    margin-bottom: 0px !important;
+  }
+  .sec-f-bot h1{
+    font-family: NotoSansThai-Bold !important; 
+    font-size: 36px !important;
+    line-height: 40px !important; 
+    color: #F29D29 !important;
+  }
+  .sec-f-bot p{ 
+    font-size: 16px !important;
+    line-height: 22px !important; 
+    color: #18181B !important;
+    font-family: 'Inter' !important;
+  }
 }
